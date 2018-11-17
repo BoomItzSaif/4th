@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/Style.css">
+    </head>
+    <body>
+         <div class="btndps">
+             <div class="buttons">
+            <button id="bold" onclick="bold()"><b>B</b></button>      
+             <button id="italic" onclick="italics()"><i>I</i></button>
+             <button id="underlined" onclick="underline()"><u>U</u></button>
+            </div>
+            <select id="input-font" class="input"  onchange="changeFont (this);">
+                    <option value="Times New Roman" selected ="selected">Times New Roman</option>
+                    <option value="Arial">Arial</option>
+              </select>
+                
+<select name="Font size" id="fontSizeDD">
+    <option value="8">8</option>
+    <option value="10">10</option>
+    <option value="12">12</option>
+    <option value="14">14</option>
+    <option value="18">18</option>
+    <option value="20">20</option>
+    <option value="36">36</option>
+    <option value="72">72</option>
+</select>
+</div>
+<br>
+<div contenteditable="true" id="textbox"> 
+    <p> xD </p> </div>
+    
+
+
+
+
+         
+    
+        
+        <script src="JS/main.js" async defer></script>
+    </body>
+</html>
